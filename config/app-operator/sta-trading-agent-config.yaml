@@ -8,4 +8,4 @@ stringData:
   type: config
   app.marketplace.url: https://sta.az.run.withtanzu.com
   app.agent.strategy: buy-lower-stock
-  app.agent.user: springkles
+  app.agent.user: insert-user
