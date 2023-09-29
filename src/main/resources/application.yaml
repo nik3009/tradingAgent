@@ -8,7 +8,19 @@ app:
 spring:
   application:
     name: sta-spring-boot-trading-agent
-
+  security:
+    oauth2:
+      client:
+        registration:
+          sso:
+            client-id: sta_springkles
+            client-secret: e0e993cc-2828-4cf0-b9fd-8c13e96831b0
+            authorization-grant-type: client_credentials
+            scope:
+              - bid
+        provider:
+          sso:
+            issuer-uri: https://login.sso.az.run.withtanzu.com
 management:
   metrics:
     distribution:

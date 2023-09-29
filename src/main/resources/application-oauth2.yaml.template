@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           sso:
-            client-id: insert-client-id
-            client-secret: insert-client-secret
+            client-id: sta_springkles
+            client-secret: e0e993cc-2828-4cf0-b9fd-8c13e96831b0
             authorization-grant-type: client_credentials
             scope:
             - bid
